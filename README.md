@@ -1,3 +1,14 @@
 # SEMANA
-Cuando uses el software de control de empleados Semana, al sacar los reports temporales, te saldrá una lista con raw data completamente ilegible.
-Utiliza esto para limpiar los datos y sacar tus reports.
+#semana.py
+cadenaPalabras = '''XXXXXXXXX'''
+
+listaPalabras = cadenaPalabras.split()
+
+frecuenciaPalab = []
+for w in listaPalabras:
+	frecuenciaPalab.append(listaPalabras.count(w))
+	
+print("Cadena\n" + cadenaPalabras +"\n")
+print("Lista\n" + str(listaPalabras) +"\n")
+print("Frecuencias\n" + str(frecuenciaPalab) +"\n")
+print("Pares\n" + str(list(zip(listaPalabras, frecuenciaPalab))))
