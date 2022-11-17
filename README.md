@@ -1,14 +1,3 @@
-# SEMANA
-#semana.py
-cadenaPalabras = '''XXXXXXXXX'''
-
-listaPalabras = cadenaPalabras.split()
-
-frecuenciaPalab = []
-for w in listaPalabras:
-	frecuenciaPalab.append(listaPalabras.count(w))
-	
-print("Cadena\n" + cadenaPalabras +"\n")
-print("Lista\n" + str(listaPalabras) +"\n")
-print("Frecuencias\n" + str(frecuenciaPalab) +"\n")
-print("Pares\n" + str(list(zip(listaPalabras, frecuenciaPalab))))
+# SEMANA	
+Cuando utilices SEMANA  (software de control horario y de localización de los empleados). Al sacar el report de datos mensual te saldrá un documento completamente ilegible. 
+Utiliza esto para limpiar los datos para poder trabajar mejor sobre ellos y pasar reports. 
