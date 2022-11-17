@@ -1,4 +1,4 @@
-#program.py
+#semana.py
 cadenaPalabras = '''XXXXXXXXX'''
 
 listaPalabras = cadenaPalabras.split()
